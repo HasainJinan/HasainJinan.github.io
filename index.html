@@ -8,9 +8,47 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
+
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #8E8FFA;
+      display: inline-block;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: inline-block;
+      color: #190482;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: protest riot;
+      border: 2px solid;
+      margin: 1px;
+    }
+    
+    li a:hover {
+      background-color: #3f1bc1;
+      color: #c2d9ff;
+    }
+</style>
+
 <body>
-    <h3 align="center" style="background-color:rgb(71, 135, 198); color: #282bd8;">Navigation: <a href="about_me.html" style="color: #282bd8;">About Me</a>,   <a href="projects.html" style="color: #282bd8;"> My Projects</a>,   <a href="interests.html" style="color: #282bd8;"> My Interests</a></h3>
-    <hr>
+    <nav>
+        <ul>
+            <li><a href="about_me.html">About Me</a></li>
+            <li><a href="projects.html">My Projects</a></li>
+            <li><a href="interests.html">My Interests</a></li>
+        </ul>
+    </nav>
+    <hr style="border: 1px solid #8E8FFA;">
     <h1 align="center">👋 Hello! 👋<br>Welcome to my personal website!</h1>
 
     <h2 align="center">My name is <a href="about_me.html">Hasain Jinan</a>.<br>I am a beginner Full Stack Developer from Bangladesh. I was born June 7th, 2008 and my birthday format is in numerical order (06/07/08).</h2>
@@ -18,12 +56,13 @@
     <h2 align="center">I have a passion for all things technical and of course I love <a href="interests.html">gaming</a>. I just can't get enough of it. Everyone loves having fun and gaming is my way to destress.</h2>
 
     <h2 align="center">I am currently studying for my Full Stack Development Certification at the <a href="https://www.brooklynsteamcenter.org" taget="_blank">Brooklyn Steam Center</a> and I am creating website projects to graduate. 😅<br>I have also taken a little bit of Cybersecurity and I have completed some interesting <a href="projects.html">projects</a> while I was there as well.</h2>
-    <hr>
+    <hr style="border: 1px solid #8E8FFA;">
     <h4 align="center">A Gallery About Me:</h4>
 
-    <img src="./Pictures/TF2 4K.jpeg">
-    <img src="./Pictures/Flag_of_Bangladesh.png" height="215">
-    <img src="./Pictures/Night-view-Dhaka-Bangladesh.png" height="215>">
+    <img src="./Pictures/TF2 4K.jpeg" height="215" alt="Team Fortress 2 by Valve Corporation">
+    <img src="./Pictures/Flag_of_Bangladesh.png" height="215" alt="Bangladesh's flag, a red circle on a green background">
+    <img src="./Pictures/Dhaka_Skyline.jpg" height="215>" alt="A vast stretch of city buildings make up Dhaka's Skyline">
 
+    
 </body>
 </html>
