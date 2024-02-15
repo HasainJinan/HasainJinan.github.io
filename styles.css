@@ -23,3 +23,6 @@ a {color: #C2D9FF;}
     cursor: pointer;
     font: "Protest Riot";
   }
+  .article {
+    color: #c2d9ff; text-align: center; font-size: x-large;
+  }
