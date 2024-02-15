@@ -2,27 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Protest+Riot&display=swap');
 
 
-
-
 body {background-color: #190482;}
 h1 {color: #8E8FFA; font-family: "Pacifico";}
 h2 {color: #C2D9FF;}
 h3 {color: #C2D9FF; font-family: "Protest Riot"; padding: 0.5cm 0.5cm 0.5cm 0.5cm; margin: auto auto auto auto; border: 2px solid #C2D9FF; display: block; text-align: center;}
 h4 {color: #C2D9FF;}
 a {color: #C2D9FF;}
-.button {
-    background-color: #ffffff;
-    border: 2px solid #C2D9FF;
-    color: #282bd8;
-    padding: 15px 29px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 20px;
-    margin: auto;
-    cursor: pointer;
-    font: "Protest Riot";
-  }
-  .article {
+
+
+.article {
     color: #c2d9ff; text-align: center; font-size: x-large;
-  }
+}
+.center {
+    text-align: center;
+}
+.hr {
+    border: 1px solid #8E8FFA;
+}
+#funni {
+    font-family: 'Courier New', Courier, monospace;
+}

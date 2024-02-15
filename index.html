@@ -38,6 +38,11 @@
       background-color: #3f1bc1;
       color: #c2d9ff;
     }
+
+    body {
+      background-image: url(./Pictures/Galaxy.jpg);
+    }
+
 </style>
 
 <body>
@@ -49,21 +54,42 @@
             <li><a href="interests.html">My Interests</a></li>
         </ul>
     </nav>
-    <hr style="border: 1px solid #8E8FFA;">
-    <h1 align="center">👋 Hello! 👋<br>Welcome to my personal website!</h1>
+    <hr class="hr">
+    <h1 class="center">👋 Hello! 👋<br>Welcome to my personal website!</h1>
 
-    <h2 align="center">My name is <a href="about_me.html">Hasain Jinan</a>.<br>I am a beginner Full Stack Developer from Bangladesh. I was born June 7th, 2008,<br>and my birthday format is in numerical order (06/07/08).</h2>
+    <h2 class="center">My name is <a href="about_me.html">Hasain Jinan</a>.<br>I am a beginner Full Stack Developer from Bangladesh. I was born June 7th, 2008,<br>and my birthday format is in numerical order (06/07/08).</h2>
     
-    <h2 align="center">I have a passion for all things technical and of course I love <a href="interests.html">gaming</a>.<br>I just can't get enough of it. Everyone loves having fun and gaming is<br>my way to destress.</h2>
+    <h2 class="center">I have a passion for all things technical and of course I love <a href="interests.html">gaming</a>.<br>I just can't get enough of it. Everyone loves having fun and gaming is<br>my way to destress.</h2>
 
-    <h2 align="center">I am currently studying for my Full Stack Development Certification<br>at the <a href="https://www.brooklynsteamcenter.org" taget="_blank">Brooklyn Steam Center</a> and I am creating website projects to graduate. 😅<br>I have also taken a little bit of Cybersecurity and I have completed some interesting<br><a href="projects.html">projects</a> while I was there as well.</h2>
-    <hr style="border: 1px solid #8E8FFA;">
-    <h4 align="center">A Gallery About Me:</h4>
+    <h2 class="center">I am currently studying for my Full Stack Development Certification<br>at the <a href="https://www.brooklynsteamcenter.org" taget="_blank">Brooklyn Steam Center</a> and I am creating website projects to graduate. 😅<br>I have also taken a little bit of Cybersecurity and I have completed some interesting<br><a href="projects.html">projects</a> while I was there as well.</h2>
+    <hr class="hr">
+    <h4 class="center">A Gallery About Me:</h4>
 
-    <img src="./Pictures/TF2 4K.jpeg" height="215" alt="Team Fortress 2 by Valve Corporation">
-    <img src="./Pictures/Flag_of_Bangladesh.png" height="215" alt="Bangladesh's flag, a red circle on a green background">
-    <img src="./Pictures/Dhaka_Skyline.jpg" height="215>" alt="A vast stretch of city buildings make up Dhaka's Skyline">
-
+    <aside class="center">
+      <img src="./Pictures/TF2 4K.jpeg" height="200" alt="Team Fortress 2 by Valve Corporation">
+      <img src="./Pictures/Flag_of_Bangladesh.png" height="200" alt="Bangladesh's flag, a red circle on a green background">
+      <img src="./Pictures/Dhaka_Skyline.jpg" height="200" alt="A vast stretch of city buildings make up Dhaka's Skyline">
+      <img src="./Pictures/Built_Pc_1.jpeg" height="200" alt="Images of an RGB PC built by yours truly">
+      <img src="./Pictures/Built_Pc_2.jpeg" height="200">
+    </aside>
+    <hr class="hr">
+    <div class="container">
+      <h3>Contact Me</h3>
+      <form action="action_page.php">
     
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" placeholder="First Name">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" placeholder="Last Name">
+    
+        <label for="email">Email</label>
+        <input type="email" placeholder="Email">
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
+
 </body>
 </html>
