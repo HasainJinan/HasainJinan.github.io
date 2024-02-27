@@ -46,15 +46,16 @@
 </style>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="no_peeking.html">Home</a></li>
-            <li><a href="about_me.html">About Me</a></li>
-            <li><a href="projects.html">My Projects</a></li>
-            <li><a href="interests.html">My Interests</a></li>
-        </ul>
+    <nav class="sticky">
+      <ul>
+        <li><a href="no_peeking.html">Home</a></li>
+        <li><a href="about_me.html">About Me</a></li>
+        <li><a href="projects.html">My Projects</a></li>
+        <li><a href="interests.html">My Interests</a></li>
+      </ul>
+      <hr class="hr">
     </nav>
-    <hr class="hr">
+    
     <h1 class="center">👋 Hello! 👋<br>Welcome to my personal website!</h1>
 
     <h2 class="center">My name is <a href="about_me.html">Hasain Jinan</a>.<br>I am a beginner Full Stack Developer from Bangladesh. I was born June 7th, 2008,<br>and my birthday format is in numerical order (06/07/08).</h2>
@@ -72,21 +73,19 @@
       <img src="./Pictures/Built_Pc_1.jpeg" height="200" alt="Images of an RGB PC built by yours truly">
       <img src="./Pictures/Built_Pc_2.jpeg" height="200">
     </aside>
-    <hr class="hr">
-    <div class="container">
-      <h3>Contact Me</h3>
-      <form action="action_page.php">
     
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" placeholder="First Name">
-    
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" placeholder="Last Name">
-    
-        <label for="email">Email</label>
-        <input type="email" placeholder="Email">
-    
-        <input type="submit" value="Submit">
+    <div class="footer">
+      <hr class="hr">
+      <h3 id="contact">Contact Me</h3>
+      <form align="center">
+  
+        <input type="text" id="fname" placeholder="First Name" class="info">
+        <br>
+        <input type="text" id="lname" placeholder="Last Name" class="info">
+        <br>
+        <input type="email" placeholder="Email" class="info">
+        <br>
+        <input type="submit" value="Submit" class="info">
       </form>
     </div>
 

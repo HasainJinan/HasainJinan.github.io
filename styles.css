@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Protest+Riot&display=swap');
 
 
-body {background-color: #190482;}
+body {background-color: #190482; background-image: url(./Pictures/Galaxy.jpg);}
 h1 {color: #8E8FFA; font-family: "Pacifico";}
 h2 {color: #C2D9FF;}
 h3 {color: #C2D9FF; font-family: "Protest Riot"; padding: 0.5cm 0.5cm 0.5cm 0.5cm; margin: auto auto auto auto; border: 2px solid #C2D9FF; display: block; text-align: center;}
@@ -17,8 +17,23 @@ a {color: #C2D9FF;}
     text-align: center;
 }
 .hr {
-    border: 1px solid #8E8FFA;
+    border: 1px solid rgb(90, 82, 174);
+}
+.info {
+    text-align: center;
 }
 #funni {
     font-family: 'Courier New', Courier, monospace;
+}
+#contact {
+    color: #c2d9ff; font-family: protest riot; border: 0;
+}
+nav.sticky {
+    position: sticky;
+    top: 0;
+    background-color: rgb(43, 34, 135);
+    margin-top: 0;
+}
+.footer {
+    background-color: rgb(43, 34, 135);
 }
