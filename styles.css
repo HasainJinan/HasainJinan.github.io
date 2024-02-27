@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Protest+Riot&display=swap');
 
 
-body {background-color: #190482; background-image: url(./Pictures/Galaxy.jpg);}
+body {background-color: #190482; background-image: url(./Pictures/Galaxy.jpg); margin: 0;}
 h1 {color: #8E8FFA; font-family: "Pacifico";}
 h2 {color: #C2D9FF;}
 h3 {color: #C2D9FF; font-family: "Protest Riot"; padding: 0.5cm 0.5cm 0.5cm 0.5cm; margin: auto auto auto auto; border: 2px solid #C2D9FF; display: block; text-align: center;}
