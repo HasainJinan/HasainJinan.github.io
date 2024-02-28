@@ -8,6 +8,36 @@ h2 {color: #C2D9FF;}
 h3 {color: #C2D9FF; font-family: "Protest Riot"; padding: 0.5cm 0.5cm 0.5cm 0.5cm; margin: auto auto auto auto; border: 2px solid #C2D9FF; display: block; text-align: center;}
 h4 {color: #C2D9FF;}
 a {color: #C2D9FF;}
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8E8FFA;
+    display: inline-block;
+  }
+li.nav {
+    float: left;
+}
+li.nav a.linav {
+    display: inline-block;
+    color: #190482;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: protest riot;
+    border: 2px solid;
+    margin: 1px;
+}
+li.nav a.linav:hover {
+    background-color: #3f1bc1;
+    color: #c2d9ff;
+    font-size: large;
+}
+li.nav a.linav:active {
+    color: rgb(95, 90, 206);
+}
+
 
 
 .article {
@@ -36,4 +66,15 @@ nav.sticky {
 }
 .footer {
     background-color: rgb(43, 34, 135);
+}
+.header {
+    background-color: #190482;
+    margin: 0;
+}
+h1.margin {
+    margin: 0;
+}
+input:focus {
+    background-color: rgb(162, 246, 254);
+    border-color: rgb(162, 246, 254);
 }
