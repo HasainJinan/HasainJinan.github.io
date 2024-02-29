@@ -46,15 +46,25 @@
   <div class="footer">
     <hr class="hr">
     <h3 id="contact">Contact Me</h3>
-    <form align="center">
+    <form align="center" action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post">
   
+      <label for="fname" class="label">First Name</label>
+      <br>
       <input type="text" id="fname" placeholder="First Name" class="info">
+      <br>
+      <br>
+      <label class="label">Last Name</label>
       <br>
       <input type="text" id="lname" placeholder="Last Name" class="info">
       <br>
+      <br>
+      <label class="label">Email</label>
+      <br>
       <input type="email" placeholder="Email" class="info">
       <br>
-      <input type="submit" value="Submit" class="info">
+      <br>
+      <input type="submit" value="Submit" class="button">
+      <input name="send-to" value="hjinan@brooklynsteamcenter.org" hidden>
     </form>
     <br>
     <br>

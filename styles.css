@@ -50,13 +50,29 @@ li.nav a.linav:active {
     border: 1px solid rgb(90, 82, 174);
 }
 .info {
+    align-self: center;
+    width: 300px;
+    padding: 8px;
+}
+.button {
     text-align: center;
+    width: 100px;
+    height: 30px;
+    font-family: Protest Riot; color: #190482;
+    background-color: #8E8FFA;
+    border-radius: 10px;
+}
+.button:hover {
+    background-color: #C2D9FF;
+}
+.button:active {
+    background-color: #6467e4;
 }
 #funni {
     font-family: 'Courier New', Courier, monospace;
 }
 #contact {
-    color: #c2d9ff; font-family: protest riot; border: 0;
+    color: #c2d9ff; font-family: protest riot; border: 0; font-size: xx-large;
 }
 nav.sticky {
     position: sticky;
@@ -74,7 +90,18 @@ nav.sticky {
 h1.margin {
     margin: 0;
 }
-input:focus {
-    background-color: rgb(162, 246, 254);
-    border-color: rgb(162, 246, 254);
+input.info:focus {
+    background-color: rgb(152, 195, 255);   
+}
+input.info:hover {
+    border-color: rgb(156, 202, 255);
+}
+.label {
+    font-family: Protest Riot;
+    color: #190482;
+    font-size: larger;
+    background-color: #C2D9FF;
+    padding: 4px; 
+    border: 2px solid #6467e4;
+    border-radius: 10px;
 }
