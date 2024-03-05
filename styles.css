@@ -38,10 +38,12 @@ li.nav a.linav:active {
     color: rgb(95, 90, 206);
 }
 
-
-
 .article {
-    color: #c2d9ff; text-align: center; font-size: x-large;
+    color: #c2d9ff; text-align: center;
+}
+
+article.article {
+    color: #c2d9ff; text-align: center; font-size: x-large; word-wrap: normal;
 }
 .center {
     text-align: center;
@@ -108,3 +110,74 @@ input.info:hover {
 .fa-square-twitter {
     font-size: 70px;
 }
+
+@media (max-width: 2000px) {
+    img {
+        size-adjust: 600px;
+        width: 400px;
+    }
+    img.PC {
+        height: 400px;
+        width: 250px;
+    }
+    .nav {
+        font-size: large;
+    }
+}
+
+
+
+
+@media (max-width: 700px) {
+    body {
+        font-size: x-large;
+    }
+    .nav {
+        font-size: medium;
+    }
+    img {
+        width: 300px; align-self: center;
+    }
+    #contact {
+        font-size: large;
+    }
+    #info {
+        font-size: medium;
+    }
+    .label {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: x-large;
+    }
+    h1 {
+        font-size: xx-large;
+    }
+    h2 {
+        font-size: x-large;
+    }
+    #contact {
+        font-size: large;
+    }
+    #info {
+        font-size: medium;
+    }
+    .label {
+        font-size: medium;
+    }
+    img {
+        text-align: center; align-self: center; width: 300px;
+    }
+}
+
+div.article {
+    max-width: 510px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+
+
