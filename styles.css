@@ -171,6 +171,12 @@ input.info:hover {
     img {
         text-align: center; align-self: center; width: 300px;
     }
+    img.PC {
+        width: 200px; height: 300px;
+    }
+    .nav {
+        font-size: small;
+    }
 }
 
 div.article {
