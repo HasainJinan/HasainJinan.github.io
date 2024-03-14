@@ -139,13 +139,13 @@ input.info:hover {
         width: 300px; align-self: center;
     }
     #contact {
-        font-size: large;
+        font-size: larger;
     }
     #info {
-        font-size: medium;
+        font-size: large;
     }
     .label {
-        font-size: medium;
+        font-size: large;
     }
 }
 
@@ -178,11 +178,23 @@ input.info:hover {
         font-size: small;
     }
 }
-
+@media (max-width: 835px) {
+    div.cert {
+        display: none;
+    }
+}
 div.article {
     max-width: 510px;
     margin: 0 auto;
     align-content: center;
+}
+div.cert {
+    text-align: center;
+    background-color: #6467e4;
+    height: 240px;
+    position: fixed;
+    top: 70px;
+    right: 0;
 }
 
 
