@@ -110,6 +110,12 @@ input.info:hover {
 .fa-square-twitter {
     font-size: 70px;
 }
+.ftext {
+    font-size: 17px;
+    color: #c2d9ff;
+    margin-bottom: 5px;
+    overflow: visible;
+}
 
 @media (max-width: 2000px) {
     img {
@@ -121,6 +127,9 @@ input.info:hover {
         width: 250px;
     }
     .nav {
+        font-size: large;
+    }
+    li.nav a.linav:hover {
         font-size: large;
     }
 }
@@ -175,7 +184,10 @@ input.info:hover {
         width: 200px; height: 300px;
     }
     .nav {
-        font-size: small;
+        font-size: 12px;
+    }
+    li.nav a.linav:hover {
+        font-size: 13px;
     }
 }
 @media (max-width: 835px) {
