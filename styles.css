@@ -8,7 +8,7 @@ h2 {color: #C2D9FF;}
 h3 {color: #C2D9FF; font-family: "Protest Riot"; padding: 0.5cm 0.5cm 0.5cm 0.5cm; margin: auto auto auto auto; border: 2px solid #C2D9FF; display: block; text-align: center;}
 h4 {color: #C2D9FF;}
 a {color: #C2D9FF;}
-ul.nav {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -81,7 +81,18 @@ nav.sticky {
     top: 0;
     background-color: rgb(43, 34, 135);
     margin-top: 0;
+    padding-bottom: 0;
+    height: 60px;
 }
+
+nav.static {
+    position: fixed;
+    top: 0;
+    background-color: rgb(43, 34, 135);
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
 .footer {
     background-color: rgb(43, 34, 135);
 }
@@ -190,8 +201,11 @@ input.info:hover {
         font-size: 13px;
     }
 }
-@media (max-width: 835px) {
+@media (max-width: 1155px) {
     div.cert {
+        display: none;
+    }
+    div.cert2 {
         display: none;
     }
 }
@@ -205,16 +219,26 @@ div.cert {
     background-color: #6467e4;
     height: 240px;
     position: fixed;
-    top: 70px;
-    right: 0;
+    top: 64px;
+    right: 10px;
 }
+
+div.cert2 {
+    text-align: center;
+    background-color: #6467e4;
+    height: 240px;
+    position: fixed;
+    top: 64px;
+    right: 170px;
+}
+
 .hr-custom {
     padding-top: 0;
     margin-top: 0;
     margin-bottom: 0;
 }
 .no-margin {
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 
