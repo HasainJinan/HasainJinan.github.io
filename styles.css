@@ -95,6 +95,8 @@ nav.static {
 
 .footer {
     background-color: rgb(43, 34, 135);
+    margin-bottom: 0;
+    margin-top: 30px;
 }
 .header {
     background-color: #190482;
@@ -237,8 +239,61 @@ div.cert2 {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .no-margin {
     margin-bottom: 0px;
 }
 
+.relative {
+    position: relative;
+}
 
+#tf2Logo {
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    width: 400px;
+}
+
+#slapBattlesArt {
+    position: absolute;
+    top: 400px;
+    right: 70px;
+    width: 360px;
+}
+
+@media (max-width: 1170px) {
+    #tf2Logo {
+        display: none;
+    }
+    #slapBattlesArt {
+        display: none;
+    }
+}
+
+@media (max-width: 1450px) {
+    #tf2Logo {
+        width: 350px;
+    }
+    #slapBattlesArt {
+        width: 310px;
+    }
+}
+
+@media (max-width: 1365px) {
+    #tf2Logo {
+        width: 300px;
+    }
+    #slapBattlesArt {
+        width: 260px;
+    }
+}
+
+@media (max-width: 1250px) {
+    #tf2Logo {
+        width: 270px;
+    }
+    #slapBattlesArt {
+        width: 230px;
+    }
+}
